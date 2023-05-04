@@ -1,0 +1,14 @@
+.layout--container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #f7f7f7;
+  .layout--content {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0px auto;
+    padding: 20px 40px;
+    background: #FFFFFF;
+    flex-grow: 1;
+  }
+}
