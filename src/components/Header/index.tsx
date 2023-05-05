@@ -1,14 +1,8 @@
-import './styles.scss'
+import './header.scss'
 
 const Header = () => {
   return(
     <div className="layout-header">
-      <div className="logo-container">
-        <a href='#'>
-          <img src="https://res.cloudinary.com/dzifwhokp/image/upload/v1639797217/imperial_cdov4u.png" alt="logo.png"/>
-          Atera<br/>Psicología
-        </a>
-      </div>
       <nav className="menu">
         <ul>
           <li><a href="#">Terapia Virtual</a></li>
@@ -17,6 +11,14 @@ const Header = () => {
           <li><a href="#"></a>Regístrate</li>
         </ul>
       </nav>
+
+      <div className="logo-container">
+        <a href='#'>
+          <img src="https://res.cloudinary.com/dzifwhokp/image/upload/v1639797217/imperial_cdov4u.png" alt="logo.png"/>
+          Atera<br/>Psicología
+        </a>
+      </div>
+
       <div className="social-icons">
         <a href='#' target='_blank'>
           <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" className="bi bi-facebook" viewBox="0 0 16 16">
